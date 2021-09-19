@@ -7,24 +7,24 @@ h1 {
     padding:0%;
     font-family: Arial, Helvetica, sans-serif;
 }
-.nav {
+.class {
   background-color: 595959;
   color:#ffffff;
 }
-.nav {
+.class {
   list-style: none;
   text-align: center;
   padding: 20px 0 20px 0;
 }
-.nav>li {
+.class>li {
   display: block;
   padding-right: 50px;
 }
-.nav>li>a {
+.class>li>a {
   text-decoration: none;
   color: #ffffff;
 }
-.nav>li>a :hover {
+.class>li>a :hover {
   color: cicici;
 }
 
