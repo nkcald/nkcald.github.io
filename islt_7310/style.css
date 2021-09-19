@@ -2,31 +2,33 @@ h1 {
     font-size: 200%; 
     color: #00cc33;}
 
+    
+
     body {
     margin: 0%;
     padding:0%;
     font-family: Arial, Helvetica, sans-serif;
-}
-.class {
-  background-color: 595959;
-  color:#ffffff;
-}
-.class {
-  list-style: none;
-  text-align: center;
-  padding: 20px 0 20px 0;
-}
-.class>li {
-  display: block;
-  padding-right: 50px;
-}
-.class>li>a {
-  text-decoration: none;
-  color: #ffffff;
-}
-.class>li>a :hover {
-  color: cicici;
-}
+   
 
+    .topnav>li{
+    background-color: 595959;
+    color:#ffffff;
+   }
+  .topnav {
+    list-style: none;
+    text-align: center;
+    padding: 20px 0 20px 0;
+  }
+  .topnav>li {
+    display: block;
+    padding-right: 50px;
+  }
+  .ctopnav>li>a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .topnav>li>a :hover {
+    color: cicici;
+  }
 
 
