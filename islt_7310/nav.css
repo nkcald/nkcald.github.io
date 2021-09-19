@@ -24,4 +24,57 @@ li a {
 li a:hover {
   background-color: #00cc33;
 }
+ul { 
+  list-style-type:none;
+  position: relative;
+}
+  ul li { float: left;   
+  }
+  ul ul {
+    display:none;
+    position:absolute;
+    top: 100;
+  }
+  ul ul li {
+    float: none;
+    position:relative;
+  }
+  ul ul li ul {
+    position:absolute;
+    left: 100; 
+    top: 0; 
+  }
+  ul li.lastitem ul li ul;
+    left: -100%
+  }
+ul li:hover > ul; {
+  display: block; 
+}
+> ul::after {
+  content:  "";clear : both; display: block; 
+} 
+ul { 
+  margin: 0%;
+  padding: 0; 
+}
+ul li a { 
+text-align: center;
+display:block; 
+width: 176px;
+padding: 1em;
+text-decoration: none; 
+background-color:#333;
+color: white; 
+font-weight: bold;
+}
+ul li.lastitem a {
+  width: 178px; 
+}
+ul li a.current {
+  color:yellow; 
+}
+ul li a:hover, #nav_ menu ul li a:focus { 
+background-color: #00cc33;
+}
 
+  

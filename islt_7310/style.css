@@ -8,26 +8,4 @@ h1 {
     padding:0%;
     font-family: Arial, Helvetica, sans-serif;
    
-
-  li{
-    background-color: 595959;
-    color:#ffffff;
-   }
-  {
-    list-style: none;
-    text-align: center;
-    padding: 20px 0 20px 0;
-  }
-  li {
-    display: block;
-    padding-right: 50px;
-  }
-  li>a {
-    text-decoration: none;
-    color: #ffffff;
-  }
-  li>a :hover {
-    color: cicici;
-  }
-
-
+  
