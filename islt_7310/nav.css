@@ -33,7 +33,7 @@ ul {
   ul ul {
     display:none;
     position:absolute;
-    top: 100;
+    top: 100%;
   }
   ul ul li {
     float: none;
@@ -45,8 +45,8 @@ ul {
     top: 0; 
   }
   ul li.lastitem ul li ul;
-    left: -100%
-  }
+    left:-100%;
+    
 ul li:hover > ul; {
   display: block; 
 }
@@ -55,7 +55,7 @@ ul li:hover > ul; {
 } 
 ul { 
   margin: 0%;
-  padding: 0; 
+  padding: 0%; 
 }
 ul li a { 
 text-align: center;
