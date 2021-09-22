@@ -22,7 +22,6 @@ li a {
   text-decoration: none; 
 }
 
-
 <!--menu
 #nav_ menu ul {
   list-style: none; 
@@ -44,13 +43,11 @@ li a {
   display: block;
   clear:both; }
 }
-    
-li a:hover {
+ li a:hover {
   background-color: #00cc33;
 }
 ul { 
   list-style-type:none;
-  position: relative;
 }
 ul li { float: left;   
   }
@@ -77,5 +74,28 @@ ul li:hover > ul; {
 > ul::after {
   content:  "";clear : both; display: block; 
 } 
+ul { 
+  margin: 0%;
+  padding: 0%; 
+}
+ul li a { 
+text-align: center;
+display:block; 
+width: 178px;
+padding: 1em;
+text-decoration: none; 
+background-color:#333;
+color: white; 
+font-weight: bold;
+}
+ul li.lastitem a {
+  width: 178px; 
+}
+ul li a.current {
+  color:yellow; 
+}
+ul li a:hover, #nav_ menu ul li a:focus { 
+background-color: #00cc33;
+}
 
   
