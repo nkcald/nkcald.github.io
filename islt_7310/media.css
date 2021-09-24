@@ -3,8 +3,7 @@
 <head>
                <meta charset="utf-8">
   
-               <link rel="stylesheet "href="queries.html">
-
+              
  <title>CSS Grid</title>
  <style type="text/css">
 
@@ -27,7 +26,7 @@
 
   }
   .wrapper * {
-    background: red;
+    background: green;}
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,20 +45,14 @@
         <footer class="items">FOOTER</footer>
       </div>
 
+      <p>First visitations were held in Independence on Thursday evening for the city’s 22-year-old police officer shot and killed in the line of duty last week.
+
+      Dozens of U.S. flags flew on the grounds of the Community of Christ Auditorium as groups of visitors trickled in. Many of those paying respects were first responders, including police officers, emergency medical personnel and firefighters.
+      
     <header><h2>Media</h2><header>
     <main>
 
-
-
-
-
-
-
-
-
-        <p>First visitations were held in Independence on Thursday evening for the city’s 22-year-old police officer shot and killed in the line of duty last week.
-
-Dozens of U.S. flags flew on the grounds of the Community of Christ Auditorium as groups of visitors trickled in. Many of those paying respects were first responders, including police officers, emergency medical personnel and firefighters.
+      
 
 
     </main>
