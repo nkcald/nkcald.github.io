@@ -4,18 +4,9 @@
                <meta charset="utf-8">
   
  <title>CSS Grid</title>
-	<style type="text/css">
- 
- .wrapper * {
-    background: orange;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1px;
-    margin-right: 1px;
-  }
+ <style type="text/css">
 
-.wrapper {
+  .wrapper {
     display: grid;
     grid-template-columns: 1fr 5fr 2fr;
     grid-template-rows: 5fr 20fr 5fr;
@@ -27,10 +18,23 @@
     grid-column-start: 1;
     grid-column-end: 4;
   }
-               <title>Rogers_Template</title>
-</head>
 
-<body>
+  footer {
+			grid-column-start: 1;
+			grid-column-end: 4;
+
+  }
+  .wrapper * {
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1px;
+    margin-right: 1px;
+  }
+    </style>
+  </head>            
+   <body>
 
     <div class="wrapper">
         <header class="items">HEADER</header>
